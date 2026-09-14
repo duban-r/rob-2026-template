@@ -18,6 +18,18 @@
    робот «побачив» темну лінію. Та сама ідея, інший датчик.
 4. Зберегти обидві програми в цій теці.
 
+> ⚠️ **У Gears порт датчика обовʼязковий.** `ColorSensor()` без порту падає
+> з помилкою `TypeError: No color sensor connected to null`. У стандартного
+> робота: колір — порт 1, ультразвук — 2, гіроскоп — 3, GPS — 4.
+>
+> ```python
+> from ev3dev2.sensor import INPUT_1, INPUT_2
+> from ev3dev2.sensor.lego import ColorSensor, UltrasonicSensor
+>
+> color = ColorSensor(INPUT_1)
+> ultra = UltrasonicSensor(INPUT_2)
+> ```
+
 ---
 
 ## ⭐ Хто впорався швидше за інших — не чекати, а йти далі
