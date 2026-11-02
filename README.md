@@ -76,6 +76,7 @@ rob-2026/
 - [ ] ⭐ **відео 30 с: робот виконує частину місії**
 - [ ] `praktyka/07-vlasna-karta` — власне середовище й критерій успіху
 - [ ] `praktyka/08-zalizo` — Arduino в Tinkercad
+- [ ] `praktyka/08.5-mikrokontroler` — коло, АЦП, ШІМ: що всередині Arduino
 - [ ] **тиждень 9 — захист етапу** → `zakhyst/T09.md`
 
 ### Модуль 2 — доросло і до кінця
@@ -220,7 +221,7 @@ rob-2026/
 |---|---|---|
 | [Gears](https://gears.aposteriori.com.sg) | тижні 1–9 | браузер, реєстрація не потрібна |
 | RoboMind | тижні 1–6, самостійно | доступ від університету, видається на парі |
-| [Tinkercad](https://www.tinkercad.com) | тиждень 8 | браузер, безкоштовний акаунт |
+| [Tinkercad](https://www.tinkercad.com) | тиждень 8 і тема 8.5 | браузер, безкоштовний акаунт |
 | [Webots](https://cyberbotics.com) | з тижня 10 | безкоштовно, Apache 2.0 |
 | Акаунт GitHub | з тижня 1 | https://github.com |
 
