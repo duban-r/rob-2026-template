@@ -1,6 +1,6 @@
-# Робота 10. Webots: той самий регулятор — інші одиниці
+# Робота 11. Webots: той самий регулятор — інші одиниці
 
-Тиждень 10 · до **5 балів** · на парі — до 14:15 · не були на парі — до початку наступного заняття
+Тиждень 11 · до **5 балів** · на парі — до 14:15 · не були на парі — до початку наступного заняття
 
 ---
 
@@ -16,10 +16,10 @@
 
 ## Мінімум для зарахування
 
-- [ ] файли роботи в `praktyka/10-webots/svit/` — світ відкривається, контролер запускається
+- [ ] файли роботи в `praktyka/11-webots/svit/` — світ відкривається, контролер запускається
 - [ ] `zvit.md`: покази датчиків на чорному й білому, свій поріг, **три прогони** з різним `KP`
 - [ ] абзац «що змінилось проти Gears» — **дві** відмінності з **ваших** чисел
-- [ ] рядок у `journal.md`, тиждень 10: числа + **рішення, де доводите курсову — Gears чи Webots**
+- [ ] рядок у `journal.md`, тиждень 11: числа + **рішення, де доводите курсову — Gears чи Webots**
 - [ ] коміт і `git push`
 
 ## Контрольні точки на парі
@@ -63,27 +63,27 @@
 | `Python 3.10` або новіший | готово; контрольна перевірка — Webots → File → Open Sample World → `languages/python/example.wbt` → ▶ |
 | відкривається Microsoft Store або «не знайдено» | встановити з [python.org](https://www.python.org/downloads/), у першому вікні — галочка **Add python.exe to PATH**; перезапустити Webots |
 
-**Файли роботи.** Тека `praktyka/10-webots/svit/` з'явилась у шаблоні після того, як ви його
+**Файли роботи.** Тека `praktyka/11-webots/svit/` з'явилась у шаблоні після того, як ви його
 скопіювали. Забрати її у свій репозиторій — з кореня репозиторію:
 
 ```bash
 git remote add shablon https://github.com/duban-r/rob-2026-template.git
 git fetch shablon
-git checkout shablon/main -- praktyka/10-webots
+git checkout shablon/main -- praktyka/11-webots
 ```
 
-Перший рядок — лише один раз на семестр. Без git: відкрити на GitHub шаблон → `praktyka/10-webots/svit`,
+Перший рядок — лише один раз на семестр. Без git: відкрити на GitHub шаблон → `praktyka/11-webots/svit`,
 кожен із двох файлів → **Download raw file**, покласти так само:
 `svit/worlds/liniya.wbt` і `svit/controllers/liniya/liniya.py`.
 
-✔ У вашому репозиторії є `praktyka/10-webots/svit/worlds/liniya.wbt` і
-`praktyka/10-webots/svit/controllers/liniya/liniya.py`.
+✔ У вашому репозиторії є `praktyka/11-webots/svit/worlds/liniya.wbt` і
+`praktyka/11-webots/svit/controllers/liniya/liniya.py`.
 
 ---
 
 ## Крок 1. Відкрити світ і запустити заготовку — 10 хв
 
-Webots → **File → Open World…** → `praktyka/10-webots/svit/worlds/liniya.wbt`.
+Webots → **File → Open World…** → `praktyka/11-webots/svit/worlds/liniya.wbt`.
 
 Робот e-puck стоїть на трасі з чорною лінією. Його контролер — `liniya.py` (у дереві сцени
 ліворуч: **E-puck → controller "liniya"**). Відкрити код: правою кнопкою по роботу →
@@ -182,22 +182,22 @@ Webots → **File → Open World…** → `praktyka/10-webots/svit/worlds/liniya
 
 ## Крок 6. Журнал і коміт — 10 хв
 
-Рядок у `journal.md` (тиждень 10): який `KP` найкращий, ваші відсотки, рішення Gears / Webots.
+Рядок у `journal.md` (тиждень 11): який `KP` найкращий, ваші відсотки, рішення Gears / Webots.
 
 ```bash
 git add .
-git commit -m "Робота 10: П-регулятор у Webots"
+git commit -m "Робота 11: П-регулятор у Webots"
 git push
 ```
 
-✔ На GitHub у `praktyka/10-webots/` видно `zvit.md` і ваш `svit/controllers/liniya/liniya.py`.
+✔ На GitHub у `praktyka/11-webots/` видно `zvit.md` і ваш `svit/controllers/liniya/liniya.py`.
 
 ---
 
 ## Заготовка `zvit.md`
 
 ```markdown
-# Робота 10 — П-регулятор у Webots
+# Робота 11 — П-регулятор у Webots
 
 ## Датчики підлоги
 Чорне ≈ ___ · біле ≈ ___ · мій поріг PORIH = ___
@@ -258,7 +258,7 @@ Kp у Webots буде ___ , ніж у Gears, приблизно в ___ разі�
 
 ## Не були на парі або не встигли
 
-- ті самі кроки 0–6, дедлайн — **початок наступного заняття (11.11)**;
+- ті самі кроки 0–6, дедлайн — **початок наступного заняття (18.11)**;
 - Webots не став зовсім — напишіть у чат: робота виконується в Gears (той самий П-регулятор на трасі
   Simple Curves, три `Kp`), абзац — що змінилося б у Webots за вашими числами з кроку 2 одногрупника;
 - замість показу на розборі — у `zvit.md` розділ **«Розбір»**:
@@ -271,7 +271,7 @@ Kp у Webots буде ___ , ніж у Gears, приблизно в ___ разі�
 
 ## RoboMind
 
-**Basics 2 — дедлайн сьогодні, тиждень 10 (04.11).** Advanced 1 — бонус +5, до тижня 12.
+**Basics 2 — дедлайн був 04.11 (тиждень 10).** Advanced 1 — бонус +5, до тижня 12.
 
 ---
 
@@ -285,5 +285,5 @@ Kp у Webots буде ___ , ніж у Gears, приблизно в ___ разі�
 
 ## Що далі
 
-**Тиждень 11 — власний робот.** Досі робота брали готового. Наступного тижня — тіло, колеса й датчики
+**Тиждень 12 — власний робот.** Досі робота брали готового. Наступного тижня — тіло, колеса й датчики
 самі; у Webots — свій робот, у Gears — своя конфігурація.
